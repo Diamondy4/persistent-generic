@@ -16,8 +16,6 @@ maintainer:     Diamondy4 <diamondy4@hotmail.com>
 license:        BSD3
 license-file:   LICENSE
 build-type:     Simple
-extra-source-files:
-    CHANGELOG.md
 
 source-repository head
   type: git
