@@ -1,0 +1,24 @@
+name: persistent-generic
+version: 0.1.0.1
+synopsis: Derive Persistent classes generically
+description: Generic facilities for working with Peristent.
+author: David Johnson <djohnson.m@gmail.com>
+maintainer: Diamondy4 <diamondy4@hotmail.com>
+category: Database
+github: diamondy4/persistent-generic
+
+license: BSD3
+license-file: LICENSE
+
+extra-source-files:
+  - CHANGELOG.md
+
+ghc-options: -Wall
+
+dependencies:
+  - base >= 4.9 && < 5
+  - persistent
+  - text
+
+library:
+  source-dirs: src
